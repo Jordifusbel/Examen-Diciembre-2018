@@ -11,6 +11,7 @@ var importaUniverso = require('./Universo');
  * Crea el objeto Rick
  */
 protoRick = Object.create(Rick);
+protoRick.id="C-137"
 
 console.assert(protoRick);
 console.assert(protoRick.id == "C-137");
