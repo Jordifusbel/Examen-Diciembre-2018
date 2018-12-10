@@ -1,5 +1,7 @@
 function Rick() {
-    this.id= "C-137";
+    this.id= function{
+    	return ("C-" + Math.floor(Math.random() * 999); 
+    };
     this.ondas= "altas";
     this.habla= "Es Rick-dículo!";
 }
