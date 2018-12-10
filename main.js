@@ -75,6 +75,7 @@ console.assert(clonMorty.partner == clonRick);
 /**
  * Crea el objeto universo
  */
+universo = Object.create(Universo);
 
 console.assert(universo);
 console.assert(Object.getPrototypeOf(universo) != Array.prototype);
