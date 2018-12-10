@@ -3,7 +3,8 @@
  */
 var importaRick = require('./Rick');
 var importaMorty = require('./Morty');
-var importaMorty = require('./Jerry');
+var importaJerry = require('./Jerry');
+var importaUniverso = require('./Universo');
 
 
 /**
