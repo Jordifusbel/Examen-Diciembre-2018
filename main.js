@@ -3,6 +3,7 @@
  */
 var importaRick = require('./Rick');
 var importaMorty = require('./Morty');
+var importaMorty = require('./Jerry');
 
 
 /**
@@ -30,6 +31,7 @@ console.assert(protoMorty.habla == "Oohh man!");
 /**
  * Crea el objeto Jerry
  */
+jerry = Object.create(Jerry)
 
 console.assert(jerry);
 console.assert(jerry.id = "Jerry");
