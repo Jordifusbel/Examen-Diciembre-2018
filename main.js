@@ -5,6 +5,7 @@ var importaRick = require('./Rick');
 var importaMorty = require('./Morty');
 var importaJerry = require('./Jerry');
 var importaUniverso = require('./Universo');
+var importaDoofous = require('./Doofous');
 
 
 /**
@@ -162,6 +163,8 @@ console.assert(gun.historial.length == 3);
 /**
  * Crea un Doofus Rick segun se indica en el README
  */
+doofous = Object.create(Doofous);
+
 
 console.assert(doofous);
 console.assert(doofous.id == "J-19-Z7");
