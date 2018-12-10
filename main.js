@@ -19,7 +19,7 @@ console.assert(protoRick.habla == "Es Rick-dículo!");
 /**
  * Crea el objeto Morty
  */
-protoMorty = Object.create(Morty)
+protoMorty = Object.create(Morty);
 
 console.assert(protoMorty);
 console.assert(protoMorty.id == "earthMorty");
@@ -31,7 +31,7 @@ console.assert(protoMorty.habla == "Oohh man!");
 /**
  * Crea el objeto Jerry
  */
-jerry = Object.create(Jerry)
+jerry = Object.create(Jerry);
 
 console.assert(jerry);
 console.assert(jerry.id = "Jerry");
@@ -43,6 +43,11 @@ console.assert(jerry.speak() == "Tengo una colección de monedas antiguas raras!
  * Crea 2 Rick-clones y 1 clon de Morty
  * y asocia como partner de ese Morty a uno de los Rick-clones.  
  */
+clonRick = Object.create(Rick);
+otroRick = Object.create(Rick);
+clonMorty = Object.create(Morty);
+
+clonMorty.partner= "clonRick";
 
 console.assert(clonRick);
 console.assert(protoRick != clonRick);
